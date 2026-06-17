@@ -1,0 +1,46 @@
+name: Shopify Status → Slack
+
+on:
+  schedule:
+    # Every 5 minutes (GitHub's minimum granularity; runs may be delayed a few
+    # minutes under load). See README for the free-tier quota note before
+    # keeping this on a PRIVATE repo.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}   # allows a manual run from the Actions tab
+
+permissions:
+  contents: write          # needed to commit state.json back to the repo
+
+concurrency:
+  group: shopify-status
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Shopify status
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python check_status.py
+
+      - name: Persist state
+        run: |
+          git config user.name  "shopify-status-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No state change."
+          else
+            git commit -m "chore: update Shopify status state [skip ci]"
+            git push
+          fi
