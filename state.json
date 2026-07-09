@@ -1,6 +1,15 @@
 {
   "source": "api",
-  "indicator": "none",
-  "description": "All Systems Operational",
-  "incidents": {}
+  "indicator": "minor",
+  "description": "Partially Degraded Service",
+  "incidents": {
+    "8dxbkh6v5yv1": {
+      "name": "Custom domain certificates are not being issued",
+      "status": "monitoring",
+      "impact": "minor",
+      "url": "https://stspg.io/2p80k8vfy15h",
+      "last_update": "This issue has been resolved and we are monitoring to ensure resolution.",
+      "updated_at": "2026-07-09T16:56:17.806-04:00"
+    }
+  }
 }
