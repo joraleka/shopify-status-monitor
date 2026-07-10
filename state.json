@@ -1,6 +1,15 @@
 {
   "source": "api",
-  "indicator": "none",
-  "description": "All Systems Operational",
-  "incidents": {}
+  "indicator": "minor",
+  "description": "Partially Degraded Service",
+  "incidents": {
+    "jrvdyl4cjq19": {
+      "name": "Some merchants and customers experiencing issues accessing storefronts, admins",
+      "status": "identified",
+      "impact": "minor",
+      "url": "https://stspg.io/1jc17cd2s1vm",
+      "last_update": "We're continuing to work on addressing the admin and storefront issues, and will keep you updated.",
+      "updated_at": "2026-07-10T13:10:35.740-04:00"
+    }
+  }
 }
