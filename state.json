@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Partially Degraded Service",
-  "incidents": {
-    "jrvdyl4cjq19": {
-      "name": "Some merchants and customers experiencing issues accessing storefronts, admins",
-      "status": "monitoring",
-      "impact": "minor",
-      "url": "https://stspg.io/1jc17cd2s1vm",
-      "last_update": "We are continuing to monitor to ensure the health of the affected areas.",
-      "updated_at": "2026-07-10T13:54:08.483-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
