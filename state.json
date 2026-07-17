@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Minor Service Outage",
-  "incidents": {
-    "l32mxyrbz50k": {
-      "name": "Some merchants and buyers may encounter error messages with one or more of the following: storefronts, checkouts",
-      "status": "identified",
-      "impact": "major",
-      "url": "https://stspg.io/33brjwq3pmgz",
-      "last_update": "We've identified the problem and are seeing recovery from our mitigation efforts. We will continue to monitor and update.",
-      "updated_at": "2026-07-17T00:22:04.015-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
