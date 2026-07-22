@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Partially Degraded Service",
-  "incidents": {
-    "tdj039mpxkk9": {
-      "name": "Some Stripe Payment Checkouts may fail with a generic error when a credit card is used as an payment option across multiple shops.",
-      "status": "investigating",
-      "impact": "minor",
-      "url": "https://stspg.io/7vrrw0b47dg3",
-      "last_update": "We can confirm that merchants with Stripe Payment Gateway enabled may experienc one of the following:\n\n* Multiple payment options enabled, Checkouts will not surface the credit card form.\n* Merchants with only credit cards enabled, Checkouts will continue to surface and continue to see processing and other errors.",
-      "updated_at": "2026-07-22T08:56:27.778-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
