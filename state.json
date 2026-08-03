@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Partially Degraded Service",
-  "incidents": {
-    "7k38mv3019qf": {
-      "name": "Search API performance issues: Storefront Search, Catalog API and Shop App experiencing degraded functionality",
-      "status": "monitoring",
-      "impact": "minor",
-      "url": "https://stspg.io/8fgprkcjnw40",
-      "last_update": "We continue to see recovery across Storefront and other Search API. We are continuing to monitor in order to ensure full resolution.",
-      "updated_at": "2026-08-03T17:07:49.992-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
