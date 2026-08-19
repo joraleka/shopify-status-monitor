@@ -5,11 +5,11 @@
   "incidents": {
     "r5x8gw0c8gwm": {
       "name": "Live support unavailable for merchants",
-      "status": "investigating",
+      "status": "identified",
       "impact": "critical",
       "url": "https://stspg.io/nkl72wvf3v3h",
-      "last_update": "We’re investigating an issue preventing merchants from connecting with Live Support by phone or chat. Merchants may experience long wait times or may not reach a support specialist. This issue is affecting all live support queues. We'll provide an update when more information is available.",
-      "updated_at": "2026-08-19T19:26:10.503-04:00"
+      "last_update": "We've identified the root cause as an outage at Twilio, a service Shopify uses to connect live support calls and chats. Merchants may experience long wait times or be unable to connect with a specialist. Updates are available at status.twilio.com. We'll provide another update when we have more information to share.",
+      "updated_at": "2026-08-19T19:34:16.399-04:00"
     }
   }
 }
