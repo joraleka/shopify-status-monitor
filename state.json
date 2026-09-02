@@ -8,8 +8,8 @@
       "status": "identified",
       "impact": "minor",
       "url": "https://stspg.io/b10c549kzj61",
-      "last_update": "We have identified the problem Klarna payment gateway as well as related integrations and we are working with the third-party provider towards a solution.",
-      "updated_at": "2026-09-02T16:52:28.296-04:00"
+      "last_update": "We continue to work on resolving the issue with the third-party provider.",
+      "updated_at": "2026-09-02T17:56:02.290-04:00"
     }
   }
 }
