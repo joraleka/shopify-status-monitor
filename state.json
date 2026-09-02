@@ -1,6 +1,15 @@
 {
   "source": "api",
-  "indicator": "none",
-  "description": "All Systems Operational",
-  "incidents": {}
+  "indicator": "minor",
+  "description": "Partially Degraded Service",
+  "incidents": {
+    "6hx7vl3xsd4j": {
+      "name": "Klarna payment gateway is experiencing degraded performance",
+      "status": "identified",
+      "impact": "minor",
+      "url": "https://stspg.io/b10c549kzj61",
+      "last_update": "We have identified the problem Klarna payment gateway as well as related integrations and we are working with the third-party provider towards a solution.",
+      "updated_at": "2026-09-02T16:52:28.296-04:00"
+    }
+  }
 }
