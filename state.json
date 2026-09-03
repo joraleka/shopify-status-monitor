@@ -1,6 +1,6 @@
 {
-  "source": "scrape",
-  "indicator": "major",
-  "description": "One or more systems affected",
+  "source": "api",
+  "indicator": "none",
+  "description": "All Systems Operational",
   "incidents": {}
 }
