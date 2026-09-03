@@ -1,15 +1,6 @@
 {
-  "source": "api",
-  "indicator": "minor",
-  "description": "Partially Degraded Service",
-  "incidents": {
-    "6hx7vl3xsd4j": {
-      "name": "Klarna payment gateway is experiencing degraded performance",
-      "status": "identified",
-      "impact": "minor",
-      "url": "https://stspg.io/b10c549kzj61",
-      "last_update": "We continue to work on resolving the issue with the third-party provider.",
-      "updated_at": "2026-09-02T17:56:02.290-04:00"
-    }
-  }
+  "source": "scrape",
+  "indicator": "major",
+  "description": "One or more systems affected",
+  "incidents": {}
 }
