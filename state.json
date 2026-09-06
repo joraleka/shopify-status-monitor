@@ -1,6 +1,15 @@
 {
   "source": "api",
-  "indicator": "none",
-  "description": "All Systems Operational",
-  "incidents": {}
+  "indicator": "minor",
+  "description": "Partially Degraded Service",
+  "incidents": {
+    "ql77n4zy22v9": {
+      "name": "Some merchants and buyers may encounter error messages with one or more of the following: storefronts, checkouts, admin",
+      "status": "investigating",
+      "impact": "minor",
+      "url": "https://stspg.io/v6zb5qx1p0qw",
+      "last_update": "We are investigating and will keep you updated.",
+      "updated_at": "2026-09-06T05:08:51.682-04:00"
+    }
+  }
 }
