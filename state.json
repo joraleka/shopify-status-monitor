@@ -1,6 +1,15 @@
 {
   "source": "api",
-  "indicator": "none",
-  "description": "All Systems Operational",
-  "incidents": {}
+  "indicator": "minor",
+  "description": "Partially Degraded Service",
+  "incidents": {
+    "5qrrcrq2h0ln": {
+      "name": "Shopify Admins are experiencing degraded performance",
+      "status": "identified",
+      "impact": "minor",
+      "url": "https://stspg.io/7mnzkdkjpd9n",
+      "last_update": "We've identified the problem Admin and POS logins, and we're working on a solution.",
+      "updated_at": "2026-09-15T07:00:31.290-04:00"
+    }
+  }
 }
