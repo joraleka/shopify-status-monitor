@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Partially Degraded Service",
-  "incidents": {
-    "70hnj2fbw221": {
-      "name": "Shop App, Shop Pay & Shop Pay Installments are unavailable",
-      "status": "monitoring",
-      "impact": "minor",
-      "url": "https://stspg.io/v71s6mhf99jx",
-      "last_update": "Service has been restored for Shop App, shop.app web page, Shop Pay, Shop Pay Installments, Login with Shop, and shipping label voids. Shipment tracking updates and tracking notifications remain degraded. We continue working to restore these services.",
-      "updated_at": "2026-09-18T17:00:45.116-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
