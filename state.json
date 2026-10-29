@@ -1,15 +1,6 @@
 {
   "source": "api",
-  "indicator": "minor",
-  "description": "Minor Service Outage",
-  "incidents": {
-    "sxmcsw2m208h": {
-      "name": "Some merchants encountering error messages within their admins",
-      "status": "identified",
-      "impact": "major",
-      "url": "https://stspg.io/twd58h4tcpk5",
-      "last_update": "We've identified the problem impacting Admin and mobile version of Admin and we're working on a solution. Admin is now fully available and our team continues to work on the issues impacting the mobile version.",
-      "updated_at": "2026-10-29T04:51:22.741-04:00"
-    }
-  }
+  "indicator": "none",
+  "description": "All Systems Operational",
+  "incidents": {}
 }
